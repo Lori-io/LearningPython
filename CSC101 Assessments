@@ -39,3 +39,13 @@ print(nums)
 temperatures = [-3, 78, 95, 28, 56, 81, -10, -]
 for temp in temperatures:
     print("The weather outside is: " + str(temp)) 
+    
+    
+# print a personalized greeting for each person in the list and keep track of each student who was greeted
+
+students = ["Jay", "Stacy", "Iman", "Trisha", Ahmed", "Daniel", "Shadae", "Tosin", "Charlotte"]
+num_students = 0
+for student in students:
+    print("Welcome to class, " + student)
+    num_students += 1
+    print(str(num_students) + "student(s) have entered the classroom")
