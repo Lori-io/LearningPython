@@ -4,7 +4,8 @@
 my_str = "MICHIGAN"
 for i in my_str:
     print(i)
-    
+ 
+ 
 #loop to print out each element of the list several_things. Then, write another for loop to print out the TYPE of each element of the list several_things
 
 several_things = ["hello", 2, 4, 6.0, 7.5, 234352354, "the end", "", 99]
@@ -13,13 +14,23 @@ for i in several_things:    #prints each item as a list
 for i in several_things:    #prints class of each item
     print(type(i))
 
+
 #Write code that uses iteration to print out the length of each element of the list stored in str_list
 
 str_list = ["hello", "", "goodbye", "wonderful", "I love Python"]
 for i in str_list:
     print(len(i)) #counts the characters of each item and displays them in a list
 
+
 #count the number of characters in original_str using the accumulation pattern and assign the answer to a variable num_chars
 
 num_chars = original_str.count('') - 1  #counts the number of characters in a string without using the len function
 print (num_chars)
+
+
+#create a list of numbers from 0 to 67 and assign that list to the variable nums. Do not hard code the list.
+
+nums = range(68)    #prints a range of numbers (0, 67) - always go one up for range
+print(nums)
+
+
