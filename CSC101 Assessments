@@ -34,3 +34,8 @@ nums = range(68)    #prints a range of numbers (0, 67) - always go one up for ra
 print(nums)
 
 
+#Write a program that will go through a list of temperatures and print them out to the user.
+
+temperatures = [-3, 78, 95, 28, 56, 81, -10, -]
+for temp in temperatures:
+    print("The weather outside is: " + str(temp)) 
