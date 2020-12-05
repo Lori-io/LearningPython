@@ -49,3 +49,13 @@ for student in students:
     print("Welcome to class, " + student)
     num_students += 1
     print(str(num_students) + "student(s) have entered the classroom")
+    
+    
+# Write code to assign the string "You can apply to SI!" to output if the string "SI 106" is in the list courses. If it is not in courses, assign the value "Take SI 106!" to the variable output.
+
+courses = ["ENGR 101", "SI 110", "ENG 125", "SI 106", "CHEM 130"]
+
+for x in courses:
+    if x == "SI 106":
+        output = "You can apply to SI!"
+        print (output)
